@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Item 1",
+      "price": 19.99,
+      "description": "A description for Item 1.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Item 2",
+      "price": 29.99,
+      "description": "A description for Item 2.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Item 3",
+      "price": 39.99,
+      "description": "A description for Item 3.",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  
