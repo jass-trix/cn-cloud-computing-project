@@ -21,10 +21,11 @@ sudo yum install -y aws-cli
 # Install PM2 globally
 sudo npm install -g pm2
 
-# Download code from S3 bucket
-# FILL THIS PART
-# - UPDATE WITH YOUR S3 FOLDER NAME (e.g. jasson.harsojo)
-aws s3 cp --recursive s3://cloud-computing-source-code/UPDATE_THIS_PART/backend-app-1 /home/ec2-user/backend-app-1
+# Install Git
+sudo yum install -y git
+
+git clone https://github.com/jass-trix/cn-cloud-computing-project.git
+cd backend-app-1
 
 # Set NODE_ENV to production
 export NODE_ENV=production
